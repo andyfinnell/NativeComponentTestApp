@@ -23,6 +23,8 @@
 		A11CFB7B2503E98E00066A90 /* BannerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11CFB742503E98E00066A90 /* BannerKit.framework */; };
 		A11CFB7C2503E98E00066A90 /* BannerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A11CFB742503E98E00066A90 /* BannerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A11CFB812503EA5600066A90 /* BannerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A11CFB642503E87600066A90 /* BannerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11CFB832503FECC00066A90 /* BannerView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */; };
+		A11CFB852504033900066A90 /* BannerView+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB842504033900066A90 /* BannerView+AppKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		A11CFB642503E87600066A90 /* BannerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerKit.h; sourceTree = "<group>"; };
 		A11CFB652503E87600066A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11CFB742503E98E00066A90 /* BannerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BannerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BannerView+UIKit.swift"; sourceTree = "<group>"; };
+		A11CFB842504033900066A90 /* BannerView+AppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BannerView+AppKit.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,8 @@
 			children = (
 				A11CFB642503E87600066A90 /* BannerKit.h */,
 				A11CFB652503E87600066A90 /* Info.plist */,
+				A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */,
+				A11CFB842504033900066A90 /* BannerView+AppKit.swift */,
 			);
 			path = BannerKit;
 			sourceTree = "<group>";
@@ -302,9 +308,11 @@
 					};
 					A11CFB612503E87600066A90 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					A11CFB732503E98E00066A90 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
@@ -389,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB852504033900066A90 /* BannerView+AppKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB832503FECC00066A90 /* BannerView+UIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +568,7 @@
 		A11CFB432503E61600066A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Components/Components.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +589,7 @@
 		A11CFB442503E61600066A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Components/Components.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +610,7 @@
 		A11CFB5B2503E67300066A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 823R8Y9CTL;
@@ -618,6 +631,7 @@
 		A11CFB5C2503E67300066A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 823R8Y9CTL;
@@ -639,6 +653,7 @@
 		A11CFB6C2503E87600066A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -657,6 +672,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.losingfight.BannerKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -666,6 +682,7 @@
 		A11CFB6D2503E87600066A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -693,6 +710,7 @@
 		A11CFB7E2503E98E00066A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -712,6 +730,7 @@
 				PRODUCT_NAME = BannerKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -722,6 +741,7 @@
 		A11CFB7F2503E98E00066A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
