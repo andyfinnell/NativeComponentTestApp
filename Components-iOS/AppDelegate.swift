@@ -1,4 +1,5 @@
 import UIKit
+import BannerKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

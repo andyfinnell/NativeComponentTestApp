@@ -1,4 +1,5 @@
 import Cocoa
+import BannerKit
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
