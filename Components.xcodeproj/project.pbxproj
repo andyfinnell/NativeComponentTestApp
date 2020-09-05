@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,16 @@
 		A11CFB812503EA5600066A90 /* BannerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A11CFB642503E87600066A90 /* BannerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A11CFB832503FECC00066A90 /* BannerView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */; };
 		A11CFB852504033900066A90 /* BannerView+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB842504033900066A90 /* BannerView+AppKit.swift */; };
+		A11CFB882504092300066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB872504092300066A90 /* NativeComponentKit */; };
+		A11CFB8B2504096A00066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8A2504096A00066A90 /* NativeComponentKit */; };
+		A11CFB8D250409B700066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8C250409B700066A90 /* NativeComponentKit */; };
+		A11CFB8F250409BF00066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8E250409BF00066A90 /* NativeComponentKit */; };
+		A11CFB91250409DD00066A90 /* BannerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB90250409DD00066A90 /* BannerSource.swift */; };
+		A11CFB92250409DD00066A90 /* BannerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB90250409DD00066A90 /* BannerSource.swift */; };
+		A11CFB9425040A2500066A90 /* BannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9325040A2500066A90 /* BannerComponent.swift */; };
+		A11CFB9525040A2500066A90 /* BannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9325040A2500066A90 /* BannerComponent.swift */; };
+		A11CFB9725040C6500066A90 /* BannerComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9625040C6500066A90 /* BannerComponentFactory.swift */; };
+		A11CFB9825040E0600066A90 /* BannerComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9625040C6500066A90 /* BannerComponentFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +101,9 @@
 		A11CFB742503E98E00066A90 /* BannerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BannerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BannerView+UIKit.swift"; sourceTree = "<group>"; };
 		A11CFB842504033900066A90 /* BannerView+AppKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BannerView+AppKit.swift"; sourceTree = "<group>"; };
+		A11CFB90250409DD00066A90 /* BannerSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerSource.swift; sourceTree = "<group>"; };
+		A11CFB9325040A2500066A90 /* BannerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerComponent.swift; sourceTree = "<group>"; };
+		A11CFB9625040C6500066A90 /* BannerComponentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerComponentFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB882504092300066A90 /* NativeComponentKit in Frameworks */,
 				A11CFB692503E87600066A90 /* BannerKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB8B2504096A00066A90 /* NativeComponentKit in Frameworks */,
 				A11CFB7B2503E98E00066A90 /* BannerKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB8D250409B700066A90 /* NativeComponentKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB8F250409BF00066A90 /* NativeComponentKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +152,7 @@
 				A11CFB632503E87600066A90 /* BannerKit */,
 				A11CFB752503E98E00066A90 /* BannerKit-iOS */,
 				A11CFB332503E61400066A90 /* Products */,
+				A11CFB892504096A00066A90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				A11CFB642503E87600066A90 /* BannerKit.h */,
+				A11CFB90250409DD00066A90 /* BannerSource.swift */,
+				A11CFB9325040A2500066A90 /* BannerComponent.swift */,
+				A11CFB9625040C6500066A90 /* BannerComponentFactory.swift */,
 				A11CFB652503E87600066A90 /* Info.plist */,
 				A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */,
 				A11CFB842504033900066A90 /* BannerView+AppKit.swift */,
@@ -192,6 +213,13 @@
 			children = (
 			);
 			path = "BannerKit-iOS";
+			sourceTree = "<group>";
+		};
+		A11CFB892504096A00066A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +259,9 @@
 				A11CFB682503E87600066A90 /* PBXTargetDependency */,
 			);
 			name = Components;
+			packageProductDependencies = (
+				A11CFB872504092300066A90 /* NativeComponentKit */,
+			);
 			productName = Components;
 			productReference = A11CFB322503E61400066A90 /* Components.app */;
 			productType = "com.apple.product-type.application";
@@ -250,6 +281,9 @@
 				A11CFB7A2503E98E00066A90 /* PBXTargetDependency */,
 			);
 			name = "Components-iOS";
+			packageProductDependencies = (
+				A11CFB8A2504096A00066A90 /* NativeComponentKit */,
+			);
 			productName = "Components-iOS";
 			productReference = A11CFB492503E67300066A90 /* Components.app */;
 			productType = "com.apple.product-type.application";
@@ -268,6 +302,9 @@
 			dependencies = (
 			);
 			name = BannerKit;
+			packageProductDependencies = (
+				A11CFB8C250409B700066A90 /* NativeComponentKit */,
+			);
 			productName = BannerKit;
 			productReference = A11CFB622503E87600066A90 /* BannerKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -286,6 +323,9 @@
 			dependencies = (
 			);
 			name = "BannerKit-iOS";
+			packageProductDependencies = (
+				A11CFB8E250409BF00066A90 /* NativeComponentKit */,
+			);
 			productName = "BannerKit-iOS";
 			productReference = A11CFB742503E98E00066A90 /* BannerKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -325,6 +365,9 @@
 				Base,
 			);
 			mainGroup = A11CFB292503E61400066A90;
+			packageReferences = (
+				A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */,
+			);
 			productRefGroup = A11CFB332503E61400066A90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -397,7 +440,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB9725040C6500066A90 /* BannerComponentFactory.swift in Sources */,
+				A11CFB91250409DD00066A90 /* BannerSource.swift in Sources */,
 				A11CFB852504033900066A90 /* BannerView+AppKit.swift in Sources */,
+				A11CFB9425040A2500066A90 /* BannerComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +451,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CFB9825040E0600066A90 /* BannerComponentFactory.swift in Sources */,
+				A11CFB92250409DD00066A90 /* BannerSource.swift in Sources */,
 				A11CFB832503FECC00066A90 /* BannerView+UIKit.swift in Sources */,
+				A11CFB9525040A2500066A90 /* BannerComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -818,6 +867,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/andy/Code/losingfight/NativeComponentKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A11CFB872504092300066A90 /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+		A11CFB8A2504096A00066A90 /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+		A11CFB8C250409B700066A90 /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+		A11CFB8E250409BF00066A90 /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A11CFB2A2503E61400066A90 /* Project object */;
 }

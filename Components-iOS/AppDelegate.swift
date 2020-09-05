@@ -1,13 +1,16 @@
 import UIKit
 import BannerKit
+import NativeComponentKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    private let componentStore = NativeComponentStore()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        componentStore.install(BannerSource())
+        
         return true
     }
 

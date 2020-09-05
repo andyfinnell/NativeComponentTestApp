@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NativeComponentKit",
+        "repositoryURL": "/Users/andy/Code/losingfight/NativeComponentKit",
+        "state": {
+          "branch": "master",
+          "revision": "55d5c2ca5727228390f79a124948c53f067c4fc1",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
