@@ -6,8 +6,26 @@
         "repositoryURL": "/Users/andy/Code/losingfight/NativeComponentKit",
         "state": {
           "branch": "master",
-          "revision": "55d5c2ca5727228390f79a124948c53f067c4fc1",
+          "revision": "b930ab7b640e5b1e4609d220ba4e18a2f76a7d0d",
           "version": null
+        }
+      },
+      {
+        "package": "RestLikeKit",
+        "repositoryURL": "git@github.com:andyfinnell/RestLikeKit.git",
+        "state": {
+          "branch": null,
+          "revision": "e31fab4a9b9b5e742ebdf985f08117cf0d2774ea",
+          "version": "0.0.3"
+        }
+      },
+      {
+        "package": "ViewKit",
+        "repositoryURL": "git@github.com:andyfinnell/ViewKit.git",
+        "state": {
+          "branch": null,
+          "revision": "fa7a3e141af54b1516ca2659fac65980ef7784ce",
+          "version": "0.0.4"
         }
       }
     ]
