@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build
-      run: swift build -v
     - name: Run macOS tests
       run: xcodebuild test -scheme Components -destination platform="macOS"
     - name: Run iOS tests
