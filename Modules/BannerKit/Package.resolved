@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NativeComponentKit",
+        "repositoryURL": "git@github.com:andyfinnell/NativeComponentKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "c540c3093222f25bf6f9d5ee5ba80e2d80aa3e7a",
+          "version": null
+        }
+      },
+      {
+        "package": "ViewKit",
+        "repositoryURL": "git@github.com:andyfinnell/ViewKit.git",
+        "state": {
+          "branch": null,
+          "revision": "fa7a3e141af54b1516ca2659fac65980ef7784ce",
+          "version": "0.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
