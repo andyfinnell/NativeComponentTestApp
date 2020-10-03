@@ -1,5 +1,4 @@
 # NativeComponentTestApp
-![Tests](https://github.com/andyfinnell/NativeComponentTestApp/workflows/Tests/badge.svg) 
 
 NativeComponentTestApp is a testbed app for the [NativeComponentKit](https://github.com/andyfinnell/NativeComponentKit) framework. 
 
