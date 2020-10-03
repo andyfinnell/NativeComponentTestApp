@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "NativeComponentKit",
-        "repositoryURL": "/Users/andy/Code/losingfight/NativeComponentKit",
+        "repositoryURL": "git@github.com:andyfinnell/NativeComponentKit.git",
         "state": {
           "branch": "master",
           "revision": "b930ab7b640e5b1e4609d220ba4e18a2f76a7d0d",

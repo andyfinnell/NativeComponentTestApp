@@ -22,17 +22,12 @@
 		A11CFB812503EA5600066A90 /* BannerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A11CFB642503E87600066A90 /* BannerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A11CFB832503FECC00066A90 /* BannerView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB822503FECC00066A90 /* BannerView+UIKit.swift */; };
 		A11CFB852504033900066A90 /* BannerView+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB842504033900066A90 /* BannerView+AppKit.swift */; };
-		A11CFB882504092300066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB872504092300066A90 /* NativeComponentKit */; };
-		A11CFB8B2504096A00066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8A2504096A00066A90 /* NativeComponentKit */; };
-		A11CFB8D250409B700066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8C250409B700066A90 /* NativeComponentKit */; };
-		A11CFB8F250409BF00066A90 /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8E250409BF00066A90 /* NativeComponentKit */; };
 		A11CFB91250409DD00066A90 /* BannerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB90250409DD00066A90 /* BannerSource.swift */; };
 		A11CFB92250409DD00066A90 /* BannerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB90250409DD00066A90 /* BannerSource.swift */; };
 		A11CFB9425040A2500066A90 /* BannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9325040A2500066A90 /* BannerComponent.swift */; };
 		A11CFB9525040A2500066A90 /* BannerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9325040A2500066A90 /* BannerComponent.swift */; };
 		A11CFB9725040C6500066A90 /* BannerComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9625040C6500066A90 /* BannerComponentFactory.swift */; };
 		A11CFB9825040E0600066A90 /* BannerComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CFB9625040C6500066A90 /* BannerComponentFactory.swift */; };
-		A11CFB9925057C5A00066A90 /* NativeComponentKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB872504092300066A90 /* NativeComponentKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A13ECC8425276B380082284F /* ViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = A13ECC8325276B380082284F /* ViewKit */; };
 		A13ECC8525276B380082284F /* ViewKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A13ECC8325276B380082284F /* ViewKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A13ECC8D252770380082284F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13ECC8C252770380082284F /* MainView.swift */; };
@@ -45,7 +40,6 @@
 		A13ECC9F2527A5A40082284F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13ECC9D2527A5A40082284F /* MainViewController.swift */; };
 		A18E66CE250D512A003352B0 /* RestLikeKit in Frameworks */ = {isa = PBXBuildFile; productRef = A18E66CD250D512A003352B0 /* RestLikeKit */; };
 		A18E66CF250D512A003352B0 /* RestLikeKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A18E66CD250D512A003352B0 /* RestLikeKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		A18E66D0250D513B003352B0 /* NativeComponentKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A11CFB8A2504096A00066A90 /* NativeComponentKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A18E66D2250D5142003352B0 /* RestLikeKit in Frameworks */ = {isa = PBXBuildFile; productRef = A18E66D1250D5142003352B0 /* RestLikeKit */; };
 		A18E66D3250D5142003352B0 /* RestLikeKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A18E66D1250D5142003352B0 /* RestLikeKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A18E66D6250D5296003352B0 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E66D5250D5296003352B0 /* AppDependencies.swift */; };
@@ -56,6 +50,14 @@
 		A18E66DD250D5323003352B0 /* AuthenticationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E66DB250D5323003352B0 /* AuthenticationStorage.swift */; };
 		A18E66DF250D5FA7003352B0 /* BannerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E66DE250D5FA7003352B0 /* BannerAPI.swift */; };
 		A18E66E0250D5FA7003352B0 /* BannerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E66DE250D5FA7003352B0 /* BannerAPI.swift */; };
+		A1DE80D42528D7A000638AEE /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80D32528D7A000638AEE /* NativeComponentKit */; };
+		A1DE80D52528D7A000638AEE /* NativeComponentKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80D32528D7A000638AEE /* NativeComponentKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1DE80D92528D7B500638AEE /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80D82528D7B500638AEE /* NativeComponentKit */; };
+		A1DE80DA2528D7B500638AEE /* NativeComponentKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80D82528D7B500638AEE /* NativeComponentKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1DE80DE2528D84500638AEE /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80DD2528D84500638AEE /* NativeComponentKit */; };
+		A1DE80DF2528D84500638AEE /* NativeComponentKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80DD2528D84500638AEE /* NativeComponentKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1DE80E22528D84C00638AEE /* NativeComponentKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80E12528D84C00638AEE /* NativeComponentKit */; };
+		A1DE80E32528D84C00638AEE /* NativeComponentKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A1DE80E12528D84C00638AEE /* NativeComponentKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +84,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A11CFB9925057C5A00066A90 /* NativeComponentKit in Embed Frameworks */,
+				A1DE80D52528D7A000638AEE /* NativeComponentKit in Embed Frameworks */,
 				A11CFB6A2503E87600066A90 /* BannerKit.framework in Embed Frameworks */,
 				A13ECC8525276B380082284F /* ViewKit in Embed Frameworks */,
 				A18E66CF250D512A003352B0 /* RestLikeKit in Embed Frameworks */,
@@ -96,10 +98,32 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A18E66D0250D513B003352B0 /* NativeComponentKit in Embed Frameworks */,
+				A1DE80DA2528D7B500638AEE /* NativeComponentKit in Embed Frameworks */,
 				A11CFB7C2503E98E00066A90 /* BannerKit.framework in Embed Frameworks */,
 				A13ECC932527706D0082284F /* ViewKit in Embed Frameworks */,
 				A18E66D3250D5142003352B0 /* RestLikeKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE80E02528D84500638AEE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1DE80DF2528D84500638AEE /* NativeComponentKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE80E42528D84C00638AEE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1DE80E32528D84C00638AEE /* NativeComponentKit in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11CFB882504092300066A90 /* NativeComponentKit in Frameworks */,
+				A1DE80D42528D7A000638AEE /* NativeComponentKit in Frameworks */,
 				A11CFB692503E87600066A90 /* BannerKit.framework in Frameworks */,
 				A13ECC8425276B380082284F /* ViewKit in Frameworks */,
 				A18E66CE250D512A003352B0 /* RestLikeKit in Frameworks */,
@@ -153,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11CFB8B2504096A00066A90 /* NativeComponentKit in Frameworks */,
+				A1DE80D92528D7B500638AEE /* NativeComponentKit in Frameworks */,
 				A11CFB7B2503E98E00066A90 /* BannerKit.framework in Frameworks */,
 				A13ECC922527706D0082284F /* ViewKit in Frameworks */,
 				A18E66D2250D5142003352B0 /* RestLikeKit in Frameworks */,
@@ -164,7 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11CFB8D250409B700066A90 /* NativeComponentKit in Frameworks */,
+				A1DE80DE2528D84500638AEE /* NativeComponentKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11CFB8F250409BF00066A90 /* NativeComponentKit in Frameworks */,
+				A1DE80E22528D84C00638AEE /* NativeComponentKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +331,9 @@
 			);
 			name = Components;
 			packageProductDependencies = (
-				A11CFB872504092300066A90 /* NativeComponentKit */,
 				A18E66CD250D512A003352B0 /* RestLikeKit */,
 				A13ECC8325276B380082284F /* ViewKit */,
+				A1DE80D32528D7A000638AEE /* NativeComponentKit */,
 			);
 			productName = Components;
 			productReference = A11CFB322503E61400066A90 /* Components.app */;
@@ -331,9 +355,9 @@
 			);
 			name = "Components-iOS";
 			packageProductDependencies = (
-				A11CFB8A2504096A00066A90 /* NativeComponentKit */,
 				A18E66D1250D5142003352B0 /* RestLikeKit */,
 				A13ECC912527706D0082284F /* ViewKit */,
+				A1DE80D82528D7B500638AEE /* NativeComponentKit */,
 			);
 			productName = "Components-iOS";
 			productReference = A11CFB492503E67300066A90 /* Components.app */;
@@ -347,6 +371,7 @@
 				A11CFB5E2503E87600066A90 /* Sources */,
 				A11CFB5F2503E87600066A90 /* Frameworks */,
 				A11CFB602503E87600066A90 /* Resources */,
+				A1DE80E02528D84500638AEE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,7 +379,7 @@
 			);
 			name = BannerKit;
 			packageProductDependencies = (
-				A11CFB8C250409B700066A90 /* NativeComponentKit */,
+				A1DE80DD2528D84500638AEE /* NativeComponentKit */,
 			);
 			productName = BannerKit;
 			productReference = A11CFB622503E87600066A90 /* BannerKit.framework */;
@@ -368,6 +393,7 @@
 				A11CFB702503E98E00066A90 /* Sources */,
 				A11CFB712503E98E00066A90 /* Frameworks */,
 				A11CFB722503E98E00066A90 /* Resources */,
+				A1DE80E42528D84C00638AEE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -375,7 +401,7 @@
 			);
 			name = "BannerKit-iOS";
 			packageProductDependencies = (
-				A11CFB8E250409BF00066A90 /* NativeComponentKit */,
+				A1DE80E12528D84C00638AEE /* NativeComponentKit */,
 			);
 			productName = "BannerKit-iOS";
 			productReference = A11CFB742503E98E00066A90 /* BannerKit.framework */;
@@ -417,9 +443,9 @@
 			);
 			mainGroup = A11CFB292503E61400066A90;
 			packageReferences = (
-				A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */,
 				A18E66CC250D512A003352B0 /* XCRemoteSwiftPackageReference "RestLikeKit" */,
 				A13ECC8225276B380082284F /* XCRemoteSwiftPackageReference "ViewKit" */,
+				A1DE80D22528D7A000638AEE /* XCRemoteSwiftPackageReference "NativeComponentKit" */,
 			);
 			productRefGroup = A11CFB332503E61400066A90 /* Products */;
 			projectDirPath = "";
@@ -929,14 +955,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/andy/Code/losingfight/NativeComponentKit";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		A13ECC8225276B380082284F /* XCRemoteSwiftPackageReference "ViewKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:andyfinnell/ViewKit.git";
@@ -953,29 +971,17 @@
 				minimumVersion = 0.0.2;
 			};
 		};
+		A1DE80D22528D7A000638AEE /* XCRemoteSwiftPackageReference "NativeComponentKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:andyfinnell/NativeComponentKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A11CFB872504092300066A90 /* NativeComponentKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
-			productName = NativeComponentKit;
-		};
-		A11CFB8A2504096A00066A90 /* NativeComponentKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
-			productName = NativeComponentKit;
-		};
-		A11CFB8C250409B700066A90 /* NativeComponentKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
-			productName = NativeComponentKit;
-		};
-		A11CFB8E250409BF00066A90 /* NativeComponentKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A11CFB862504092300066A90 /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
-			productName = NativeComponentKit;
-		};
 		A13ECC8325276B380082284F /* ViewKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A13ECC8225276B380082284F /* XCRemoteSwiftPackageReference "ViewKit" */;
@@ -995,6 +1001,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A18E66CC250D512A003352B0 /* XCRemoteSwiftPackageReference "RestLikeKit" */;
 			productName = RestLikeKit;
+		};
+		A1DE80D32528D7A000638AEE /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1DE80D22528D7A000638AEE /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+		A1DE80D82528D7B500638AEE /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1DE80D22528D7A000638AEE /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+		A1DE80DD2528D84500638AEE /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1DE80D22528D7A000638AEE /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
+		};
+		A1DE80E12528D84C00638AEE /* NativeComponentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1DE80D22528D7A000638AEE /* XCRemoteSwiftPackageReference "NativeComponentKit" */;
+			productName = NativeComponentKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
